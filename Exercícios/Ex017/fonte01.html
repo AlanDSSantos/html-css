@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        /*
+        Medidas Absolutas
+        cm (cwntimetro), mm (milimetro), in (polegada), px (pixel), pt (ponto), pc (paica)
+
+        Medidas Relativas
+        em (medida relativa ao tamanho ideal da fonte), ex (relativo a uma altura "x" de uma fonte), rem (mesmo que o 'em' mas configurado no body). vw (largura do viewport), vh (altura da viewport) e % 
+        16px geralmente = 1em
+        */
+    p {
+        font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        font-weight: normal;
+        font-style: italic;
+        text-decoration: underline;
+        /* lighter normal bold bolder*/
+        }
+    h1 {
+        /*shorthand font
+        - font-style -> font-weight -> font-size -> font-family
+
+        font-family: 'Work Sans', sans-serif;
+        font-weight: bolder;
+        font-size: 3em;
+        font-style: italic;
+        */
+        font: italic bolder 3em 'Work Sans', sans-serif;
+    }
+    h2 {
+        font: bold 2em 'Work Sans', sans-serif;
+    }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aut nobis distinctio accusamus, qui illo voluptatibus esse deserunt sequi dolorum, sint earum unde praesentium quaerat cumque maiores dolore sit sunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis iusto esse non eveniet quod est quo nisi facere voluptatem maxime illo ipsam, ex ab, excepturi, sequi voluptate saepe quia totam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum facere aliquid quis fugit aut dolores error? Qui ullam rem, quam sed debitis corporis. Ex debitis aperiam quidem sequi, earum in?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium provident dolorum ducimus omnis magnam fugit totam nam quas cumque enim ipsam veritatis consectetur sequi nemo eveniet, non nihil sunt libero?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi aliquam magni eos nihil exercitationem a nesciunt at harum consequatur deleniti quasi sed repellendus quia soluta fugit, architecto, sint autem aliquid.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sit odio quo veniam quasi ea quia incidunt provident, ullam perferendis eum praesentium quibusdam soluta sint consequuntur sed ab itaque error!</p>
+</body>
+</html>
